@@ -94,7 +94,7 @@ public class CMSClient {
 
     private RestTemplate restTemplate;
     @SuppressWarnings("unused")
-	private String serviceUrl; // = "http://localhost:8080/adapter/rest/";
+	private String serviceUrl; // = "http://cmsapi:8080/adapter/rest/";
     private String transUrl = "http://cmsapi:8080/transistor/rest/";
     private CmsCrypto cmsCrypto;
     private Gson gson = new Gson();
