@@ -30,7 +30,7 @@ public class CMSClient {
 	private static Logger logger = Logger.getLogger(CMSClient.class);
 	
 	private RestTemplate restTemplate;
-    private String serviceUrl; // = "http://localhost:8080/adapter/rest/";
+    private String serviceUrl; // = "http://cmsapi:8080/adapter/rest/";
     private final String zoneClass = "account.provider.Zone"; 
     private final String mgmtCloud = "mgmt.Cloud";
     private final String acctCloud = "account.Cloud";
