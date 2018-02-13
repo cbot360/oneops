@@ -78,7 +78,7 @@ public class ElasticsearchReporter extends ScheduledReporter {
         private TimeUnit rateUnit;
         private TimeUnit durationUnit;
         private MetricFilter filter;
-        private String[] hosts = new String[]{ "localhost:9200" };
+        private String[] hosts = new String[]{ "search:9200" };
         private String index = "metrics";
         private String indexDateFormat = "yyyy-MM";
         private int bulkSize = 2500;
