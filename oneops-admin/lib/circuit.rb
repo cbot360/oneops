@@ -62,7 +62,7 @@ Next steps:
   - "cd #{source}"
   - provide component, packs, cloud content
   - set 'CMSAPI' environment variable to point to oneops CMS server, e.g.
-      export CMSAPI=http://localhost:8080/
+      export CMSAPI=http://cmsapi:8080/
   - run "circuit install" to load circuit content
 HELP
   end
